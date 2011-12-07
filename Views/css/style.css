@@ -1,0 +1,278 @@
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, abbr, address, cite, code, del, dfn, em, img, ins, kbd, q, samp, small, strong, sub, sup, var, b, i, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary, time, mark, audio, video {
+    border: 0 none;
+    font: inherit;
+    margin: 0;
+    padding: 0;
+    vertical-align: baseline;
+}
+
+html {
+	height: 100%;
+}
+body {
+    background: none repeat scroll 0 0 #FFFFFF;
+    font: 11pt/1.8em Georgia,'Times New Roman',Times,serif;
+	width: 100%;
+	height: 100%;
+}
+
+body, select, input, textarea {
+    color: #444444;
+}
+
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+
+a:link {
+	color: #666666;
+}
+
+h1 a, h1 a:hover {
+    background: inherit;
+    border: inherit;
+    color: inherit;
+    font: inherit;
+    padding: inherit;
+}
+
+a {
+    /*border-bottom: 1px solid #666666;*/
+    color: #666666;
+    outline: medium none;
+    padding: 1px 2px;
+    text-decoration: none;
+}
+
+a, a:active, a:visited {
+    color: #607890;
+}
+
+a:hover, a:active {
+    outline: medium none;
+}
+
+a:hover {
+    background-color: #fff;
+    border: medium none;
+    color: #444444;
+}
+
+p {
+
+}
+img {
+	border: none;
+}
+input {
+	vertical-align: middle;
+	border: 1px solid #cdcdcd;
+}
+
+.title, .title a, .title a:hover {
+    color: #444444;
+    font: 1.8em Georgia,'Times New Roman',Times,serif;
+    margin-bottom: 5px;
+	padding-top:5px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: bold;
+}
+
+h2 {
+    border-bottom: 1px solid #CCCCCC;
+    font-size: 150%;
+    font-weight: normal;
+    margin: 0 0 0.4em;
+    padding-bottom: 4px;
+}
+
+h3 {
+    border-bottom: 1px solid #CCCCCC;
+    font-size: 130%;
+    font-weight: normal;
+    margin: 0 0 0.5em;
+    padding-bottom: 4px;
+}
+
+ul, ol {
+    margin-bottom: 1em;
+}
+
+ul, ol {
+    margin-left: 2em;
+}
+
+#menu {
+    font: 1.1em/1em Georgia,'Times New Roman',Times,serif;
+    height: 25px;
+    list-style: none outside none;
+    margin: 0;
+    padding-top: 8px;
+    text-align: center;
+    text-transform: uppercase;
+    width: 100%;
+}
+
+#menu li {
+    display: inline;
+    margin: 0 10px;
+    vertical-align: middle;
+}
+
+#menu li a {
+    border: medium none;
+    padding: 8px 10px;
+}
+
+#menu li a:hover {
+    background-color: #444444;
+    border: medium none;
+    color: white;
+}
+
+#wrapper {
+	width: 1000px;
+	margin: 0 auto;
+	min-height: 100%;
+	height: auto !important;
+	height: 100%;
+}
+
+
+/* Header
+-----------------------------------------------------------------------------*/
+#header {
+	height: 115px;
+	text-align: center;
+    position:relative;
+}
+
+#registration {
+	position:absolute;
+	top:0;
+	right:20px;
+	font-size:11px;
+}
+
+#registration a {
+    border-bottom: none;
+
+}
+
+#registration a:hover {
+    background-color: #fff;
+    color: #444444;
+}
+
+.registration input {
+    vertical-align: text-bottom;
+}
+
+/* Middle
+-----------------------------------------------------------------------------*/
+#middle {
+	width: 100%;
+	padding: 0 0 110px;
+	height: 1%;
+	position: relative;
+}
+#middle:after {
+	content: '.';
+	display: block;
+	clear: both;
+	visibility: hidden;
+	height: 0;
+}
+#container {
+	width: 100%;
+	float: left;
+	overflow: hidden;
+}
+#content {
+	padding: 0 270px 20px 0;
+}
+
+
+/* Sidebar Right
+-----------------------------------------------------------------------------*/
+#sideRight {
+	float: left;
+	margin-right: -3px;
+	width: 250px;
+	margin-left: -250px;
+	position: relative;
+	border-left: 1px solid #cfcfcf;
+}
+
+#sideRight .rightSide {
+    padding:0 20px;
+}
+
+#sideRight .search_input{
+    vertical-align: top;
+    width: 170px;
+}
+
+#sideRight .search_button {
+	border:0;
+	vertical-align: text-bottom;
+    margin: 0 5px;
+}
+
+/* Footer
+-----------------------------------------------------------------------------*/
+#footer {
+	width: 1000px;
+	margin: -110px auto 0;
+	height: 110px;
+	position: relative;
+	/*border-top: 2px solid #CFCFCF;*/
+    text-align: center;
+}
+
+.redstar {
+	color: #ff0000;
+}
+
+.adm_button {
+	/*background-image: url('../images/113.gif');*/
+	/*background-repeat: no-repeat;*/
+	color: #444444;
+	background-color:#cdcdcd;
+	padding: 1px 2px;
+	cursor: pointer;
+}
+
+#content div.registration table{
+	margin: 10px auto 15px;
+}
+
+#content div.authorization table{
+	margin: 10px auto 15px;
+}
+
+.small_text{
+	font-size: 75%;
+	color: #c0c0c0;
+}
+
+.paginator {
+	font: 12pt/1.8em 'Times New Roman',Times
+}
+
+.paginator  a:hover{
+	font: 12pt/1.8em 'Times New Roman',Times;
+	color: #ffffff;
+	background-color: #444444;
+}
+
+div.comments{
+    border: 1px dotted #CDCDCD;
+    margin: 10px 0;
+    padding: 5px;
+    width: 700px;
+	font-size: 75%;
+    min-height: 80px;
+}
